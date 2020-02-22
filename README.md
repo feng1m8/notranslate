@@ -13,4 +13,4 @@ Please note that you need to do this before clicking "Translate".
 由于脚本尚不完善，可能一些类型的内容未列入列表。您可以自己修改脚本的`behaviorList`。
 如果您愿意，请联系我更新脚本。通过[GitHub](https://github.com/windingwind/notranslate/issues)或者[mail](wyzlshx@foxmail.com)。
 Because the script is not yet complete, some types of content may not be detected. You can modify the `behaviorList` of the script yourself.
-If you like, please contact me to update the script. Via [GitHub] (https://github.com/windingwind/notranslate/issues) or [mail] (wyzlshx@foxmail.com).
+If you like, please contact me to update the script. Via [GitHub](https://github.com/windingwind/notranslate/issues) or [mail](wyzlshx@foxmail.com).
