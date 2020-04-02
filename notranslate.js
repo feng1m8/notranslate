@@ -1,10 +1,12 @@
 // ==UserScript==
-// @name         notranslate-防止chrome翻译代码段和公式
+// @name:zh-cn   notranslate-防止翻译代码段和公式
+// @name:en-us   notranslate-Prevent translating snippets and formulas
 // @namespace    http://tampermonkey.net/
-// @version      0.1
-// @description  A tampermonkey script aims to prevent unnecessary translation of code segment and math equations.
+// @version      0.3
+// @description:zh-cn  避免文献及博客阅读时代码段与公式被不正确地翻译
+// @description:en-us  A tampermonkey script aims to prevent unnecessary translation of code segment and math equations.
 // @author       winding
-// @supportURL   https://github.com/windingwind/notranslate/README.md
+// @supportURL   https://github.com/windingwind/notranslate/blob/master/README.md
 // @include      *
 // @require      http://code.jquery.com/jquery-3.4.1.min.js
 // @grant        GM_setValue
@@ -13,7 +15,8 @@
 
 (function() {
     'use strict';
-    /* You can add your settings here.
+    /*
+       You can add your settings here.
        "type" can be "id", "class", or "element".
        "param" is how you  trace the target element.
     */
@@ -28,11 +31,31 @@
         },
         {
             'type':'class',
+            'param':'MJXc-display',
+        },
+        {
+            'type':'class',
+            'param':'MathJax_Display',
+        },
+        {
+            'type':'class',
+            'param':'math-container',
+        },
+        {
+            'type':'class',
+            'param':'MathJax',
+        },
+        {
+            'type':'class',
             'param':'katex--display',
         },
         {
             'type':'class',
             'param':'syntaxhighlighter',
+        },
+        {
+            'type':'class',
+            'param':'code_cell',
         },
     ];
     function addNotranslate (selector, loop, interval) {
