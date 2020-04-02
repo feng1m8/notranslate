@@ -1,10 +1,12 @@
 // ==UserScript==
-// @name:zh-cn   notranslate-防止翻译代码段和公式
-// @name:en-us   notranslate-Prevent translating snippets and formulas
+// @name:zh-CN   notranslate-防止翻译代码段和公式
+// @name:zh-TW   notranslate-防止翻譯代碼段和公式
+// @name:en   notranslate-Prevent translating snippets and formulas
 // @namespace    http://tampermonkey.net/
 // @version      0.3
-// @description:zh-cn  避免文献及博客阅读时代码段与公式被不正确地翻译
-// @description:en-us  A tampermonkey script aims to prevent unnecessary translation of code segment and math equations.
+// @description:zh-CN  避免文献及博客阅读时代码段与公式被不正确地翻译
+// @description:zh-TW  避免文獻及博客閲讀時代碼段與公式被不正塙地翻譯
+// @description:en  A tampermonkey script aims to prevent unnecessary translation of code segment and math equations.
 // @author       winding
 // @supportURL   https://github.com/windingwind/notranslate/blob/master/README.md
 // @include      *
