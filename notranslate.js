@@ -61,6 +61,11 @@
             'type':'class',
             'param':'code_cell',
         },
+        {
+            // github markdown
+            'type':'class',
+            'param':'highlight',
+        },
     ];
     function addNotranslate (selector, loop, interval) {
         $(selector).attr("class", function(i,origValue){
