@@ -27,6 +27,34 @@
     const behaviorList = [
         {
             'type':'class',
+            'param':'ltx_tag',
+        },
+        {
+            'type':'class',
+            'param':'ltx_cite',
+        },
+        {
+            'type':'class',
+            'param':'ltx_authors',
+        },
+        {
+            'type':'class',
+            'param':'ltx_note_mark',
+        },
+        {
+            'type':'class',
+            'param':'ltx_page_logo',
+        },
+        {
+            'type':'id',
+            'param':'bib',
+        },
+        {
+            'type':'element',
+            'param':'math',
+        },
+        {
+            'type':'class',
             'param':'prettyprint',
         },
         {
